@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.sad{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://footballtripper.com/wp-content/uploads/tofiq-bahramov-stadium.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+.control{
+    width: 50%;
+    height: 25%;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 50px;
+}
+.ball{
+    width: 50%;
+    height: 65%;
+    background-color: green;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top{
+    font-size: 40px;
+}
+.reset{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
